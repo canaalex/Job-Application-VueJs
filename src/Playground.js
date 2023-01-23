@@ -16,3 +16,16 @@
 // console.log(developer);
 // developer.doubleSalary();
 // console.log(developer);
+
+// const favouritefood = "sushi";
+// const goodfoods = {
+//   [favouritefood]: true,
+// };
+// console.log(goodfoods);
+
+// const interval = setInterval(() => {
+//   console.log("hello");
+// }, 2000);
+// setTimeout(() => {
+//   clearInterval(interval);
+// }, 10000);
