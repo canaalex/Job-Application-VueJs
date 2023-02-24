@@ -1,6 +1,6 @@
 <template><TheHero /></template>
 <script>
-import TheHero from "../TheHero.vue";
+import TheHero from "../JobSearch/TheHero.vue";
 export default {
   name: "HomeView",
   components: {

@@ -10,7 +10,7 @@
     ]"
   >
     <router-link :to="{ name: 'Home' }" class="h-full items-center text-xl"
-      >Google Careers</router-link
+      >Bobo Careers</router-link
     >
     <nav class="ml-16 flex h-full items-center space-x-9 pt-1">
       <a v-for="menuItem in menuItems" :key="menuItem.text">
@@ -26,9 +26,9 @@
 </template>
 
 <script>
-import ActionButton from "./ActionButton.vue";
-import ProfileImage from "./ProfileImage.vue";
-import TheSubNav from "./TheSubNav.vue";
+import ActionButton from "../Shared/ActionButton.vue";
+import ProfileImage from "../Navigation/ProfileImage.vue";
+import TheSubNav from "../Navigation/TheSubNav.vue";
 export default {
   name: "MainNav",
   components: {

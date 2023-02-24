@@ -1,12 +1,14 @@
 <template>
-  <div class="p-28 text-8xl">
-    <span style="color: aquamarine">Job</span>
-    <br />
-    <div class="mt-4 ml-20">Results</div>
+  <div class="flex w-full flex-row flex-nowrap">
+    <JobFiltersSidebar />
+    <JobListings />
   </div>
 </template>
 <script>
+import JobFiltersSidebar from "../JobResults/JobFiltersSidebar/JobFiltersSidebar.vue";
+import JobListings from "../JobResults/JobListings.vue";
 export default {
   name: "JobResults",
+  components: { JobFiltersSidebar, JobListings },
 };
 </script>
