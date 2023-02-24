@@ -5,6 +5,7 @@
         <div class="border-blue-1 col-span-1 col-start-1"></div>
         <div class="border-blue col-span-5 col-start-2">
           <TheHeadline />
+          <JobSearchForm />
         </div>
         <div class="border-blue-1 col-span-5 col-start-7">
           <img
@@ -20,8 +21,9 @@
 </template>
 <script>
 import TheHeadline from "./TheHeadline.vue";
+import JobSearchForm from "./JobSearchForm.vue";
 export default {
   name: "TheHero",
-  components: { TheHeadline },
+  components: { TheHeadline, JobSearchForm },
 };
 </script>
